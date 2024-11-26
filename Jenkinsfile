@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          bat 'dotnet build .NETSERVER.sln'
+          bat 'dotnet build Microservices.sln'
         }
       }
     }
