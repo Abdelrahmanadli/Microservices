@@ -1,0 +1,6 @@
+@_NETSERVER_HostAddress = http://localhost:5130
+
+GET {{_NETSERVER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
